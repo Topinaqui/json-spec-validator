@@ -1,0 +1,30 @@
+{
+  "name": "json-spec-validator",
+  "version": "0.0.1",
+  "description": "Validates a JSON agains a given specification.",
+  "main": "json-spec-validator.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Topinaqui/json-spec-validator.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "keywords": [
+    "\"JSON",
+    "Validator\""
+  ],
+  "author": "Franklin Oliveira da Veiga <aionprofile@hotmail.com> (https://github.com/Topinaqui)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Topinaqui/json-spec-validator/issues"
+  },
+  "homepage": "https://github.com/Topinaqui/json-spec-validator#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
