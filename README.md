@@ -11,6 +11,6 @@ Validates a JSON against a given specification.
 
   let message = {};
 
-  let oJSONValidator = new JSONValidatorController(loadedSpec);
+  let oJSONValidator = new JSONValidator(loadedSpec);
   
   message = oJSONValidator.validate(parsedJSON);
