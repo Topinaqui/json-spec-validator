@@ -2,7 +2,7 @@
   "name": "json-spec-validator",
   "version": "1.0.3",
   "description": "Validates a JSON agains a given specification.",
-  "main": "json-spec-validator.js",
+  "main": "JSONSpecValidator.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
@@ -14,8 +14,8 @@
     "node": ">=4.2.4"
   },
   "keywords": [
-    "\"JSON",
-    "Validator\""
+    "JSON",
+    "Validator"
   ],
   "author": "Franklin Oliveira da Veiga <aionprofile@hotmail.com> (https://github.com/Topinaqui)",
   "license": "MIT",
